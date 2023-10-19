@@ -1,0 +1,69 @@
+body{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    font: normal normal normal 13px/200% verdana,Arial,Helvetica;
+
+}
+.structural{
+    margin:10px;
+    padding:10px;
+}
+h1{
+    color:rgb(228, 124, 131);
+    font-size: large;
+}
+h2{
+    color:rgb(223, 139, 221);
+    font-size:large;
+}
+main{
+    height:70vh;
+}
+img{
+    border: 2px solid darkblue;
+    width:90%;
+    height: 80%;
+}
+#maining{
+   /* float: right;*/
+    background-color: yellowgreen;
+    width:60%;
+    height:45%;
+    margin:auto;
+    padding:10px;
+
+}
+#doggroup{
+    /*float: lrft;*/
+    background-color: rgb(184, 244, 210);
+    width:60%;
+    height:45%;
+    margin:auto;
+    padding:10px;
+}
+section{
+    clear:both;
+}
+figcaption{
+    font-weight:bold;
+    font-size:medium;
+    color:bisque;
+    padding:10px;
+} 
+
+a:hover{
+    color:blueviolet;
+
+}
+ul>li{
+    list-style-type:square ;
+    line-height:30px;
+}
+ul >li>a{
+    list-style-type: circle;
+
+}
+header,footer{
+    background-color: rgb(119, 54, 239);
+}
